@@ -61,11 +61,11 @@ body {
 }
 
 .navbar {
-    background-color: var(--primary-color);
+    background-color: var(--bg-main);
 }
 
 .navbar a {
-    color: #fff;
+    color: #59626a;
     text-decoration: none;
     padding: 15px 20px;
     display: inline-block;
@@ -100,13 +100,29 @@ section {
     padding: 40px 20px;
 }
 
-section#home { 
-    aspect-ratio: calc(1920 / 480);
-
-    background-image: url('/assets/stacked-waves.svg');
+.transition {
+    aspect-ratio: calc(1920 / 240);
     background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
+}
+.wb {
+    background-image: url('/assets/stacked-waves-transition-wb.svg');
+}
+
+.bw {
+    background-image: url('/assets/stacked-waves-transition-bw.svg');
+}
+
+
+section#home { 
+    aspect-ratio: calc(1920 / 480);
+
+    background-image: url('/assets/successful counseling.png');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
 
     color: var(--text-alt);
     text-align: right;
@@ -149,6 +165,14 @@ p {
 }
 
 section#services { }
+section#groups { }
+
+.group-list .row {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 section#insurance { }
 section#contact {
     text-align: center;
