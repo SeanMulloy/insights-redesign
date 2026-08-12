@@ -110,12 +110,12 @@ section {
 }
 .wb {
     background-image: url('/assets/gradient_small_wb.png');
-    height: 240px;
+    height: 120px;
 }
 
 .bw {
     background-image: url('/assets/gradient_small_bw.png');
-    height: 240px;
+    height: 120px;
 }
 
 
