@@ -109,12 +109,12 @@ section {
     background-repeat: no-repeat;
 }
 .wb {
-    background-image: url('../assets/gradient_small_wb.png');
+    background-image: url('./assets/gradient_small_wb.png');
     height: 120px;
 }
 
 .bw {
-    background-image: url('../assets/gradient_small_bw.png');
+    background-image: url('./assets/gradient_small_bw.png');
     height: 120px;
 }
 
