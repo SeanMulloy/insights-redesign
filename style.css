@@ -103,7 +103,7 @@ section {
 }
 
 .transition {
-    aspect-ratio: calc(1920 / 240);
+    aspect-ratio: calc(1920 / 120);
     background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
