@@ -77,7 +77,7 @@ body {
 .navbar {
     background-color: var(--bg-main);
     transition: top 0.4s;
-    position: fixed;
+    position: sticky; /* stays in flow, so it displaces content by its height */
     top: 0;
     width: 100%;
     z-index: 1000; /* always on top */
