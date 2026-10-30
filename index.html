@@ -10,12 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
 </head>
-<body>
+<!-- 
+    TODO:
+    o Reformat for mobile
+    o Alter navbar behavior (hide on scroll)
+    o Replace M.E.N.S. with M2M
+    o Replace Men Navigating Relationships 
+    o Minor spelling/grammar edits
+    o Put my fwicking name on it
+    
+-->
 
-    <nav class="navbar navbar-expand-lg bg-main sticky-top">
+<body>
+    <nav class="navbar navbar-expand-lg bg-main" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/logo2.png" alt="Logo" class="navbar-brand-logo" style="max-width: 20vw; margin: 0 0 0 0;"></a>
+            <img src="assets/logo2.png" alt="Logo" class="navbar-brand-logo" style="max-width: 20vw; margin: 0 0 0 0;">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,31 +36,33 @@
                     <li class="nav-item"><a class="nav-link" href="./index.html#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="./index.html#groups">Groups</a></li>
                     <!--<li class="nav-item"><a class="nav-link" href="./faq.html">FAQ</a></li>-->
-                    <li class="nav-item"><a class="nav-link" href="./index.html#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html#insurance">Contact</a></li>
                     <li class="nav-item spacer">&nbsp;&nbsp;&nbsp;&nbsp;</li>
                 </ul>
             </div>
         </div>
     </nav>
-    <a href="" class="btn btn-primary" style="position: fixed; bottom: 10% ; right: 10%; width: 16vw; height: auto; font-size: 1.2rem;">Schedule FREE Consultation</a>
+    <a href="mailto:dan@danmulloyLPC.com" class="btn" style="position: fixed; bottom: 10% ; right: 10%; width: 16vw; height: auto; font-size: 1.2rem;">Schedule FREE Consultation</a>
     <div class="wb"></div>
     <section id="about" class="py-5 bg-alt">
         <div class="container" id="profile">
             <div class="row">
-                <div class="col text-center">
+                <div class="col-12 col-lg-4 text-center">
                     <div class="d-flex flex-column align-items-center">
                         <img src="assets/headshot.png" alt="Profile Picture" class="img-fluid" style="max-width: 90%">
-                        <img src="assets/psychology today logo.png" class="img-fluid" alt="*psychology today embed*" style="max-width: 200px; margin-top: 0px;">
-                        <p>*replace with psychology today embed*</p>
+                        <!-- Professional verification provided by Psychology Today -->
+                        <a href="https://www.psychologytoday.com/profile/788280" class="sx-verified-seal"></a>
+                        <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="13" data-id="788280" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMy9wcm9maWxlLzc4ODI4MD9jYWxsYmFjaz1zeGNhbGxiYWNr"></script>
+                        <!-- End Verification -->
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <h2>Dan Mulloy, LPC, MBA, CAMS-II</h2>
                     <h2>Licensed Professional Counselor</h2>
                     <h2>Certified Anger Management Specialist</h2>
                     <p>
                         I am an experienced, effective professional treating a broad range of psychiatric issues and conditions. I primarily do Individual Counseling, Couples Counseling, and Group Counseling. I specialize in working with adult men, couples, and young adult males, but I also work well with women.  When you begin counseling with me, you can expect a thoughtful, collaborative process focused on insight, self-understanding, and meaningful change. 
-                        <br><br>Our work is grounded in the belief that lasting growth comes from understanding why you think, feel, and respond the way you do and not just managing symptoms. We will explore your life story, including formative relationships and experiences that have shaped your identity, patterns, and emotional responses. My approach is insight-oriented and informed by psychodynamic principles, with a strong emphasis on person-centered work. I also use gentle Socratic questioning and CBT-based strategies to help you identify and reframe unhelpful thought patterns when they are getting in your way. 
+                        <br><br>Our work is grounded in the belief that lasting growth comes from understanding why you think, feel, and respond the way you do and not just managing symptoms. We will explore your life story, including formative relationships and experiences that have shaped your identity, patterns, and emotional responses. My approach is insight-oriented and informed by Psychodynamic principles and Solution-Focused Brief Therapy, with a strong emphasis on Person-Centered work. I also use gentle Socratic questioning and CBT-based strategies to help you identify and reframe unhelpful thought patterns when they are getting in your way. 
                         <br><br>Sessions are guided by what is most important to you. Each week, we’ll check-in on how you’re really doing; not just what happened, but how you’re feeling, coping, and applying insights from our work together. Rather than following a rigid agenda, we focus on the themes that naturally emerge, trusting that the most important issues will surface when given space. You won’t be overloaded with generic or busy-work homework. When between-session practices are suggested, they are purposeful, practical, and tailored to your goals. Much of the work happens through reflection, increased awareness, and learning to respond to yourself and others with greater clarity and intention. 
                         <br><br>At the core of my work is the belief that you already possess the wisdom needed to move forward. At times, that wisdom can be obscured by ego defenses, old survival strategies, or cognitive distortions. My role is to help you recognize and clear those obstacles so you can live more authentically and engage in healthier, more satisfying relationships. 
                         <br><br>Counseling with me is not about quick fixes. It is a process of understanding yourself more fully and creating sustainable change, one session at a time.
@@ -60,7 +73,7 @@
                 <h4>Focus Areas:</h4>
                 <p>Addiction, Men's Issues, Late Teen Male Issues, Depression, Anxiety, Mood Disorders, Emerging
                 Adults, Anger Management, Life Coping Skills, Relationship Issues, Substance Abuse & Addiction,
-                Drug Abuse & Addiction, OCD, ADHD, Low Self-Esteem, Spirituality, Stress, Other Mental Health
+                Drug Abuse & Addiction, OCD, ADHD, Low Self-Esteem, Spirituality, Stress, and Other Mental Health
                 Issues
                 </p>
             </div>
@@ -73,40 +86,62 @@
                     <h2 class="mb-4">Our Services</h2>
                 </div>
                 <div class="col text-center">
-                    <h5>Available in georgia in office, or in both georgia and florida telemedically
-                        Our office is in Woodstock, GA off Highway 92 just east of I575. 
-                        In-office sessions are available Mon-Wed from 8 am to 7 pm.</h5>
+                    <h5>In-Office Sessions:<br> Mon-Wed in Woodstock off Highway 92 near I-575</h5>
+                    <h5>Virtual Sessions:<br>Mon-Thu in Georgia and Florida</h5>
                 </div>
             </div>    
             <div class="row">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12 col-lg-6">
                         <h3>Individual Counseling</h3>
                         <p>
-                            Individual counseling begins with a thorough intake, clinical formulation, and individualized treatment plan. Sessions are typically held weekly and are tailored to the client’s goals, strengths, and challenges. Treatment is Person-Centered in nature and integrates evidence-based approaches such as Psychodynamic Therapy, CBT, MI, DBT, and REBT. 
+                            Individual counseling begins with a thorough intake, clinical formulation, and individualized treatment plan. Sessions are typically held weekly and are tailored to the client’s goals, strengths, and challenges. Treatment is Person-Centered in nature and integrates evidence-based approaches such as Solution-Focused Brief Therapy, Psychodynamic Therapy, CBT, MI, DBT, and REBT. 
                             <br><br>The goal is to provide a safe, supportive, and structured space where clients can gain insight, build skills, and create lasting change in their lives.
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-lg-6">
                         <img src="assets/stock_therapy.jpg" alt="Individual Counseling" class="img-fluid" style="max-width: 90%;">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <h3>Couples Counseling</h3>
+                    <div class="col-12 col-lg-6">
+                        <h3>Couples Therapy</h3>
                         <p>
-                           Couples counseling begins with a comprehensive relationship assessment and collaborative treatment plan designed to identify patterns of conflict, communication breakdowns, and emotional disconnection. Evidence-based tools such as Prepare/Enrich are used to assess relationship strengths, growth areas, and compatibility factors. Treatment is informed by Gottman Method principles, with a focus on improving communication, managing conflict, strengthening emotional connection, and increasing mutual understanding. Therapy is also increasingly guided by Imago Relationship Therapy, which helps couples understand how early relational experiences influence adult partnership dynamics. Couples are supported in developing healthier interaction patterns, repairing trust, and building a more secure and intentional relationship.
+                            <strong>Trained in the Following Couples Therapy Approaches:</strong>
+
+                            <br><br>Emotionally Focused Couple Therapy (EFCT)
+                            <br><br>An attachment-based, experiential approach that uses emotion as the primary vehicle for change. EFCT helps couples identify and de-escalate negative interaction cycles, access the deeper emotions and attachment needs underlying those patterns, and create new interactions that foster emotional responsiveness, security, and connection.
+
+                            <br><br>Imago Relationship Therapy
+                            <br><br>A relational approach that helps couples better understand how past experiences can shape present relationship patterns. Imago emphasizes empathy, intentional dialogue, and deeper understanding to help partners move from conflict and disconnection toward greater connection and relational healing.
+
+                            <br><br>Gottman Method Couples Therapy — Level 1 Training
+                            <br><br>A research-based approach that helps couples strengthen friendship and intimacy, improve communication, manage conflict more effectively, and build greater understanding and shared meaning within the relationship.
+
+                            <br><br>PREPARE/ENRICH — Certified Facilitator
+                            <br><br>A research-informed relationship assessment and skill-building program that helps couples identify relationship strengths, growth areas, and important patterns in areas such as communication, conflict, finances, intimacy, expectations, and personality differences.
+                            <br><br>Woodsfellow Love Cycles/Fear Cycles Model
+                            <br><br>A couples therapy framework that helps partners identify the recurring cycles that contribute to distress and disconnection. By understanding each partner’s underlying fears, emotional reactions, and behavioral responses, couples can interrupt negative patterns and develop healthier cycles of connection and responsiveness.
+
+                            <br><br>My Approach to Couples Therapy
+                            <br><br>My approach to couples therapy is integrative and tailored to the needs of each relationship. I draw from attachment-based, experiential, skills-focused, and research-informed approaches to help couples understand the patterns that keep them stuck, strengthen emotional connection, improve communication, and manage conflict more effectively.
+                            <br><br>Depending on the couple, I may incorporate Emotionally Focused Couple Therapy to identify and transform negative interaction cycles by accessing the underlying emotions and attachment needs that drive them; Imago Relationship Therapy to deepen understanding, empathy, and intentional communication; Gottman Method strategies to strengthen friendship, intimacy, and conflict-management skills; PREPARE/ENRICH to identify relationship strengths and growth areas; and the Woodsfellow Love Cycles/Fear Cycles model to help couples recognize and change the recurring patterns that contribute to disconnection.
+                            <br><br>Rather than relying on a single method, I integrate these approaches to help couples create greater emotional safety, stronger connection, healthier communication, and lasting change.
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-lg-6">
                         <img src="assets/stock_group.jpg" alt="Couples Counseling" class="img-fluid" style="max-width: 90%;">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Remove Section -->
+    
     <div class="bw"></div>
     <section id="mens" class="py-5 bg-main">
+        <!--
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -131,157 +166,55 @@
                 </div>
             </div>
         </div> 
-        <div class="row">
+        -->
+        <div class="row" style="margin: 0 auto 20px auto; width: 80%;">
             <div class="col">
                 <div class="row text-center" style="margin-top: 20px; margin-bottom: 20px; text-align: center;">
                     <h2>INTRODUCING</h2>
+
+                <!-- Insert Updated Logo or Remove background -->
+
                     <img src="assets/m2m_logo.png" alt="M2M Logo" style="max-width: 80%; text-align: center; margin: 0 auto;">
                 </div>
+
+                <!-- Reformat (Paragraphy)-->
+
                 <div class="row text-left">
-                    <h2>What Is Man-To-Man Counseling?</h2>
+                    <h3>What Is Man-To-Man Counseling?</h3>
+                   
                     <p>
-                    <br>Man-To-Man Counseling is a therapy practice focused primarily on helping men navigate the real-life challenges that can leave them feeling stressed-out, stuck, overwhelmed, disconnected, or unsure of what to do next.
-                    <br>I work with men dealing with anxiety, depression, anger, relationship problems, stress, life transitions, low self-esteem, perfectionism, emotional disconnection, and questions about identity, purpose, and direction.
-                    <br>My approach is practical, straightforward, and collaborative. I combine Person-Centered Therapy, Cognitive Behavioral Therapy, and principles from Solution-Focused Brief Therapy to help clients better understand themselves, identify the patterns that are getting in the way, and make meaningful changes.
-                    <br>The goal is not simply to talk about problems. It is to understand what is happening, determine what needs to change, and build a realistic path forward.
-                    <br>Man-To-Man Counseling is designed to be a place where men can talk honestly, without judgment or pressure to be someone they are not.
-                    <br>The focus is simple: better self-understanding, stronger relationships, clearer direction, and real-life change.
+                        Man-To-Man Counseling is focused primarily on helping men deal with the real-life problems that can leave them feeling stressed, stuck, overwhelmed, disconnected, unhappy, or unsure of what to do next. I work with men struggling with anxiety, depression, anger, ADHD, relationship problems, stress, major life changes, low self-esteem, perfectionism, and questions about purpose or direction.
+                        <br><br>My style is practical, straightforward, and collaborative. I use a combination of Person-Centered Therapy, Cognitive Behavioral Therapy, and Solution-Focused approaches to help men understand what is happening and what patterns are getting in the way. Men can then make the changes that actually improve their lives. The goal is to understand what is going on, figure out what needs to change, and develop a realistic path forward.
+                        <br><br>Common Questions From Men
                     </p>
-                    <h2>Common Questions From Men</h2>
-                    <h3>1. How Can Counseling Help Me Become a Better Husband, Partner, or Father?</h3>
+                    <h4>1. How Can Counseling Help Me Become a Better Husband, Partner, or Father?</h4>
                     <p>
-                    <br>Many men come into counseling because something is not working in their relationships.
-                    <br>Maybe your wife or partner says you are emotionally unavailable. Maybe you are arguing more, growing distant, or losing patience with your kids. Or maybe nothing is terribly wrong, but you know you are not as connected to your family as you want to be.
-                    <br>You may think:
-                    <br>“I’m working hard. I’m providing for my family. I’m doing everything I’m supposed to do. Why isn’t that enough?”
-                    <br>Providing matters. Being dependable matters. Working hard matters.
-                    <br>Those are important ways many men show love.
-                    <br>But the people closest to you need something else too.
-                    <br>They need to know you.
-                    <br>Sometimes men become so focused on taking care of their families that they slowly become disconnected from them.
-                    <br>You go to work. Pay the bills. Handle problems. Take care of the house. Get everyone where they need to go.
-                    <br>You are doing a lot.
-                    <br>But eventually the relationship can start to feel more like managing a household than sharing a life.
-                    <br>Counseling gives you a chance to step back and look at how you show up in your relationships.
-                    <br>What happens when your partner is upset with you?
-                    <br>Do you become defensive? Get angry? Shut down? Try to fix the problem when she really wants you to listen?
-                    <br>Do you avoid difficult conversations?
-                    <br>When you are stressed, who gets the best version of you? Your family, or has your patience already been used up everywhere else?
-                    <br>These questions are not about guilt. They are about awareness.
-                    <br>Once you recognize your patterns, you can begin changing the ones that are not working.
-                    <br>You can learn to listen without immediately defending yourself. Stay engaged instead of shutting down. Recognize frustration before you lose your temper. Communicate what you actually need. Repair the relationship after an argument.
-                    <br>Being a better husband, partner, or father does not mean becoming perfect.
-                    <br>You are still going to have bad days and say the wrong thing sometimes.
-                    <br>What matters is what you do next.
-                    <br>Can you take responsibility? Can you reconnect after conflict? Can you tell the people you love what they mean to you? Can you let them know what is happening inside you instead of expecting them to guess?
-                    <br>The people you love do not need you to be perfect.
-                    <br>They need you to be present.
-                    <br>Counseling can help you become more self-aware, more intentional, and better equipped to handle the difficult moments every relationship experiences.
-                    <br>Because being a good husband, partner, or father is not only about what you provide.
-                    <br>It is also about the relationship you build.
+                        A lot of men come to counseling because something is not working in their relationships. Maybe your wife or partner says you are emotionally unavailable. Maybe you are arguing more, growing apart, or losing patience with your kids. You may be thinking you work hard, provide for your family and do everything you are supposed to do but it's still not enough. And those things do matter, but the people closest to you also need to feel connected to you. Sometimes men get so focused on providing, solving problems, and taking care of responsibilities that family life starts to feel more like managing a household than sharing a life.
+                        <br><br>Counseling can help you recognize the patterns that create distance, such as becoming defensive, shutting down, losing your temper, avoiding difficult conversations, or trying to fix something when your partner really wants you to listen. The goal is not to become a perfect husband or father. It is to become more aware of how you show up, communicate more clearly, and get better at repairing things when they go wrong. The people you love do not need perfection. They need your presence.
                     </p>
-                    <h3>2. Why Do I Get So Angry or Irritated Over Small Things?</h3>
+                    <h4>2. Why Do I Get So Angry or Irritated Over Small Things?</h4>
                     <p>
-                    <br>Maybe you lose patience with your kids, snap at your wife or partner, get unusually frustrated in traffic, or find yourself irritated with people around you.
-                    <br>Sometimes you know you overreacted. You can see it afterward. But in the moment, the reaction feels completely justified.
-                    <br>Then you calm down and wonder, “Why did I get so worked up about that?”
-                    <br>One thing I have learned from working with men is that anger is often the emotion we notice, but it is not always where the problem started.
-                    <br>There may be something underneath it.
-                    <br>Stress. Anxiety. Hurt. Exhaustion. Fear. Rejection. Feeling criticized, disrespected, overwhelmed, or unappreciated.
-                    <br>A lot of men were never taught how to recognize those emotions. We learned how to solve problems, push through difficulty, and handle responsibility.
-                    <br>Those are useful skills, but they do not always work well with emotions.
-                    <br>When you do not understand what you are feeling, everything can start coming out as frustration.
-                    <br>I often think of anger as a warning light on a dashboard. The light tells you something needs attention, but it does not necessarily tell you exactly what is wrong.
-                    <br>The goal is not simply to turn off the warning light. It is to understand why it came on.
-                    <br>That matters because the people closest to you may only experience the anger. They may not see the stress, hurt, fear, or pressure underneath it.
-                    <br>Over time, your partner may become cautious about what she says. Your kids may learn to stay away when Dad is irritated. You may find yourself regretting things you said or did.
-                    <br>So instead of only asking, “How do I control my anger?” I encourage men to ask:
-                    <br>“What is my anger trying to tell me?”
-                    <br>In counseling, we slow things down. What consistently sets you off? What thoughts run through your mind? What are you feeling besides anger? What is actually bothering you?
-                    <br>Once you understand that, you have more choices.
-                    <br>The goal is not to eliminate anger. Anger is normal and sometimes appropriate.
-                    <br>The goal is to understand it well enough that you stay in control of what happens next.
+                        You may snap at your partner, lose patience with your kids, or get unusually irritated by things that normally should not bother you that much. Then later you wonder why you got so upset about it.
+                        <br><br>One thing I have learned from working with men is that anger is often the emotion we notice first, but it is not always where the problem started. Underneath it may be stress, anxiety, hurt, exhaustion, rejection, fear, or feeling criticized or unappreciated.  There are a host of reasons that need to be addressed that could go back as far as childhood.
+                        <br><br>I think of anger like a warning light on a dashboard. The light tells you something needs attention, but it does not necessarily tell you what the problem is. Counseling helps you slow things down and figure out what is actually triggering the reaction. The goal is not to eliminate anger. Anger is normal. The goal is to understand it well enough that you remain in control of what happens next.
                     </p>
-                    <h3>3. Why Do I Shut Down Emotionally or Pull Away in My Relationship?</h3>
-                    <p>
-                    <br>Your wife or partner may say things like, “I don't feel emotionally connected to you,”, “I don’t know what you’re feeling,” or “I feel like I can’t reach you.”
-                    <br>From your perspective, you may not be trying to pull away.
-                    <br>Maybe you do not know what to say. Maybe every conversation seems to become an argument. Maybe you have learned that whatever you say somehow makes things worse.
-                    <br>So eventually, you stop saying anything.
-                    <br>You get quiet. Change the subject. Look at your phone. Go to another room. Tell yourself you just need some space.
-                    <br>You may experience that as trying to keep things from getting worse.
-                    <br>Your partner may experience it as rejection.
-                    <br>That is how two people who care about each other can get caught in a painful cycle.
-                    <br>One person tries harder to talk about the relationship. The other becomes overwhelmed and pulls away. The more one pursues, the more the other withdraws.
-                    <br>For many men, shutting down is not about not caring. Sometimes it is exactly the opposite.
-                    <br>You may care so much about the relationship that conflict feels overwhelming. You do not want to say the wrong thing, disappoint your partner, feel criticized, or make the argument worse.
-                    <br>Withdrawal feels safer.
-                    <br>The problem is that what feels safe to you may feel very unsafe to your partner.
-                    <br>One of the most important things I help men understand is that you do not have to choose between arguing and shutting down.
-                    <br>There is another option.
-                    <br>You can learn to stay engaged in difficult conversations without feeling like you have to solve everything, defend yourself, or come up with the perfect answer.
-                    <br>That starts with understanding what is happening inside you.
-                    <br>Are you hurt? Anxious? Embarrassed? Feeling criticized or inadequate? Afraid of losing the relationship?
-                    <br>If you do not understand what you are feeling, it is very difficult to explain it to someone else.
-                    <br>Counseling can help you recognize what is happening earlier and communicate it more clearly.
-                    <br>Sometimes progress sounds as simple as:
-                    <br>“I’m getting overwhelmed right now, but I don’t want to avoid this. Give me 20 minutes to clear my head and then let’s come back to it.”
-                    <br>That is very different from walking away and never returning to the conversation.
-                    <br>You do not have to become more emotional or change your personality.
-                    <br>You just need to learn how to stay connected when conversations become difficult.
-                    <br>Sometimes emotional connection does not require having all the right words.
-                    <br>Sometimes it simply means staying in the room.
+                    <h4>3. Why Do I Shut Down or Pull Away During Conflict?</h4>
+                        <p>
+                        Your partner may say she never knows what you're feeling, doesn't feel connected, or feels like you “check-out" sometimes. From your perspective, you may simply be trying to keep things from getting worse. Maybe you do not know what to say. Maybe every conversation seems to turn into an argument. Eventually, staying quiet or walking away feels safer.
+                        <br><br>The problem is that what feels safe to you may feel like rejection to your partner. This often creates a cycle where one person pushes harder to talk while the other becomes overwhelmed and pulls further away.
+                        <br><br>You do not have to choose between fighting and shutting down. Counseling can help you understand what happens inside you during conflict and learn how to stay engaged without feeling like you have to defend yourself, fix everything, or come up with the perfect response. Sometimes progress is simply being able to say, “I’m getting overwhelmed. Give me 20 minutes, and then let’s come back to this.” You do not need to change your personality. You just need a better way to stay connected when things get difficult.
                     </p>
-                    <h3>4. Why Is It So Hard for Men to Talk About Their Feelings, and Does It Actually Help?</h3>
+                    <h4>4. Why Is It So Hard for Men to Talk About Feelings?</h4>
                     <p>
-                    <br>A lot of men come into my office with very little interest in talking about their feelings.
-                    <br>I get it.
-                    <br>If you have a problem, you probably want to solve it. If something is broken, you want to fix it. So being told to “get in touch with your feelings” may sound vague or pointless.
-                    <br>Here is how I think about it:
-                    <br>Your emotions are information.
-                    <br>They tell you something about what matters to you, what you need, what you are afraid of, and what may not be working in your life.
-                    <br>Anger may tell you that something feels unfair or a boundary has been crossed.
-                    <br>Anxiety may tell you that you are afraid of what might happen.
-                    <br>Resentment may tell you that you have been saying yes when you wanted to say no.
-                    <br>Sadness may tell you that you have lost something important.
-                    <br>Feeling numb may tell you that you have become disconnected from something that matters.
-                    <br>The emotion is not always the problem. Sometimes it is information about the problem.
-                    <br>And when you ignore that information, it usually does not disappear. It may come out as irritability, withdrawal, overworking, drinking, relationship problems, or simply a vague sense that you are unhappy.
-                    <br>You cannot fix a problem you do not understand.
-                    <br>Sometimes men spend years trying to solve the wrong problem.
-                    <br>You may think you need a new job when you are really missing purpose.
-                    <br>You may think you are angry when you are actually hurt.
-                    <br>You may think you are lazy when you are exhausted.
-                    <br>You may think your marriage is the problem when you have become disconnected from yourself.
-                    <br>Understanding your emotions helps you understand yourself.
-                    <br>That is the real point of talking about feelings.
-                    <br>The goal is not to analyze every emotion or turn you into someone you are not. It is to notice patterns.
-                    <br>What frustrates you? What makes you anxious? What causes you to shut down? What do you resent? What makes you feel alive? What are you avoiding?
-                    <br>Those questions provide useful information.
-                    <br>Understanding your emotions is not about becoming more emotional.
-                    <br>It is about becoming more self-aware.
-                    <br>And self-awareness gives you choices.
-                    <br>You do not need to become a different kind of man.
-                    <br>You just need to understand the man you already are.
+                        <br><br>A lot of men have very little interest in “talking about feelings.” I understand that. If you have a problem, you probably want to solve it. The reason emotions matter is that they give you information.
+                        <br><br>Anger may tell you something feels unfair. Anxiety tells you something feels threatening. Resentment may mean you have been saying yes when you want to say no. Sadness tells you that something important has been lost. When you ignore those signals, they usually do not disappear. They tend to show up somewhere else as irritability, withdrawal, overworking, drinking, relationship problems, or simply feeling unhappy.
+                        <br><br>You cannot fix a problem you do not understand. Talking about emotions is not about becoming more emotional. It is about becoming more self-aware. And when you understand yourself better, you have more choices about what you do next.
                     </p>
-                    <h3>5. Why Do I Feel Stuck in Life Even Though I Have a Good Job, Family, or Successful Career?</h3>
+                    <h4>5. Why Do I Feel Stuck Even Though My Life Looks Pretty Good?</h4>
                     <p>
-                    <br>This is one of the most common questions I hear from men.
-                    <br>From the outside, your life may look pretty good. You have a career. You provide for your family. You’ve checked many of the boxes you were told would lead to a satisfying life.
-                    <br>But something still feels off.
-                    <br>You may feel restless, disconnected, unmotivated, or like you’re simply going through the motions. Sometimes that leads to another question:
-                    <br>“What’s wrong with me? I should be grateful.”
-                    <br>The truth is, nothing may be wrong with you at all.
-                    <br>Many men spend years focused on responsibility. They work hard, take care of others, solve problems, and keep moving forward. Somewhere along the way, they stop asking themselves an important question:
-                    <br>“Am I actually living the life I want, or am I simply fulfilling my obligations?”
-                    <br>Those are not the same thing.
-                    <br>Feeling stuck often develops slowly. You become so busy meeting expectations that you lose touch with your own goals, interests, and identity. Life begins to feel more like a list of responsibilities than something you genuinely enjoy.
-                    <br>For some men, that shows up as burnout or frustration. Others withdraw, become irritable, lose motivation, or simply feel numb.
-                    <br>Often, feeling stuck is less about your circumstances and more about feeling disconnected from who you are and what matters most to you.
-                    <br>Counseling can help you figure out what is keeping you stuck. It may be fear of change, perfectionism, anxiety, unresolved pain, people-pleasing, burnout, or years of putting everyone else’s needs ahead of your own.
-                    <br>My goal is not to tell you how to live your life. It is to help you gain clarity, reconnect with what matters to you, and develop practical steps toward moving forward.
-                    <br>I believe counseling should lead to real change, not just interesting conversations.
-                    <br>You do not have to blow up your life to improve it. Sometimes meaningful change starts with a few intentional decisions that move you closer to the man you want to become.
+                        From the outside, your life may look fine. You have a career, responsibilities, maybe a family, and you have checked many of the boxes you thought would make life satisfying. But something still feels off. You may feel restless, burned out, disconnected, or like you are simply going through the motions.
+                        <br><br>Many men spend years focused on work, responsibility, and taking care of other people. Somewhere along the way, they stop asking themselves, “Am I actually living the life I want, or am I just fulfilling my obligations?”
+                        <br><br>Feeling stuck can come from burnout, fear of change, perfectionism, anxiety, unresolved issues, people-pleasing, or simply losing touch with what matters to you. Counseling can help you sort through that. My goal is not to tell you what your life should look like. It is to help you understand where you are, decide where you want to go, and develop practical steps for getting there. You do not have to blow up your life to change it. Sometimes a few intentional changes can make a very big difference.
                     </p>
                 </div>
             </div>
@@ -294,10 +227,10 @@
         </div>
         <div class="row">   
             <div id="groupCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner" style="width: 80%; margin: 0 auto;">
                     <div class="carousel-item active" data-bs-interval="000">
                         <div class="row p-5 text-white">
-                            <div class="col">
+                            <div class="col-12 col-lg-6">
                                 <h3>ANGER MANAGEMENT GROUP</h3>
                                 <p>A structured, insight-driven group for men who struggle with anger, reactivity, and emotional control
                                 <br><br>This 12-week Anger Management group is designed for men who want to understand their anger—not just suppress it. Using a well-researched, skills-based workbook alongside guided group discussion, participants learn to identify triggers, recognize underlying emotions, and take responsibility for how anger shows up in their lives. Weekly Anger Logs help members slow reactions, increase awareness, and develop healthier responses to real-world situations.
@@ -311,14 +244,14 @@
                                 <br><br>ANGER MANAGEMENT GROUP NOW FORMING. RESERVE YOUR SPOT TODAY
                                 <br><br>Group sessions are $59 and last 1 ½ hours/week and are often covered by insurance. They are virtual on a day TBD.</p>
                             </div>
-                            <div class="col">
-                                <img src="assets/group_ads/angermanagement.png" alt="Anger Management Group" class="img-fluid" style="width: 40%; text-align: center; margin: 0 auto;">
+                            <div class="col-8 col-lg-4 mx-auto">
+                                <img src="assets/group_ads/angermanagement.png" alt="Anger Management Group" class="img-fluid d-block mx-auto" style="width: 100%;">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="10000">
                         <div class="row p-5 text-white">
-                            <div class="col">
+                            <div class="col-12 col-lg-6">
                                 <h3>SUBSTANCE ABUSE RECOVERY GROUPS - RECOVERY IN REAL LIFE</h3>
                                 <p>
                                     <br>A. Foundation Group
@@ -335,33 +268,32 @@
                                     <br><br>Group sessions are $59 and last 1 ½ hours/week and are often covered by insurance. The Foundations Group is starting soon and will be on Tuesdays and Wednesdays from 5-6:30pm.
                                 </p>
                             </div>
-                            <div class="col">
-                                <img src="assets/group_ads/substanceabuse.png" alt="Substance Abuse" class="img-fluid" style="width: 40%; text-align: center; margin: 0 auto;">
+                            <div class="col-8 col-lg-4 mx-auto">
+                                <img src="assets/group_ads/substanceabuse.png" alt="Substance Abuse" class="img-fluid d-block mx-auto" style="width: 100%;">
                             </div> 
                         </div>
                     </div>
-                    
                     <div class="carousel-item" data-bs-interval="10000">
                         <div class="row p-5 text-white">
-                            <div class="col p-5 text-white">
-                                <h3>MEN NAVIGATING RELATIONSHIPS</h3>
-                                <p>Understanding Yourself in Connection with Others
-                                    <br><br>A process-oriented group for men who want stronger, healthier relationships.
-                                    <br><br>Relationships are where many of life’s deepest challenges—and greatest opportunities for growth—show up. This group helps men better understand how they relate to partners, family members, friends, and colleagues. Through guided discussion, insight-building, and supportive feedback from other men, participants learn to recognize the patterns that shape their relationships and develop healthier ways of communicating, setting boundaries, and responding to conflict.
-                                    <br><br>Rather than offering quick tips or surface-level advice, this group focuses on understanding the deeper dynamics that influence connection: emotional awareness, attachment patterns, communication habits, and unmet needs. The goal is to help men become more confident, intentional, and effective in the relationships that matter most.
-                                    <br><br>Good fit for men who:
+                            <div class="col-12 col-lg-6">
+                                <h3>MAN-TO-MAN COUNSELING GROUP</h3>
+                                <p>Real Men. Real Issues. Real Change.
+                                    <br>The Man-To-Man Counseling Group is for men who feel stuck, stressed, disconnected, dissatisfied, or simply know something in their life needs to change.
+                                    <br>It provides a confidential place to talk honestly with other men dealing with many of the same real-life challenges, including work and life stress, depression, anger, relationship problems, loneliness, and major life transitions.
+                                    <br>This is not a group focused on sitting around talking about problems. The goal is to understand what is getting in your way, identify what needs to change, and develop practical ways to move forward.
+                                    <br>The group may be a good fit if you:
                                     <ul>
-                                        <li>Struggle with communication or recurring conflict in relationships</li>
-                                        <li>Want to better understand their emotional reactions and triggers</li>
-                                        <li>Feel disconnected from partners, friends, or family</li>
-                                        <li>Want to develop stronger, more authentic connections with others</li>
+                                        <li>Feel stuck or unsure about what comes next</li>
+                                        <li>Struggle with stress, anger, depression, or relationships</li>
+                                        <li>Feel isolated or have difficulty talking honestly with others</li>
+                                        <li>Are going through divorce, career changes, fatherhood, dating, or another major transition</li>
+                                        <li>Want more confidence, direction, connection, and satisfaction in your life</li>
                                     </ul>
-                                    <br><br>MEN NAVIGATING RELATIONSHIP GROUPS NOW FORMING. RESERVE YOUR SPOT TODAY
-                                    <br><br>Group sessions are $59 and last 1½ hours/week and are often covered by insurance.
-                                    <br><br>These groups will be virtual and group date is TBD.</p>
+                                    <br>REAL MEN GETTING REAL HELP AND HELPING EACH OTHER.
+                                    <br><br>You don’t have to figure everything out by yourself. This group combines professional counseling, practical tools, honest conversation, and the support of other men who are working on their lives too.</p>
                             </div>
-                            <div class="col">
-                                <img src="assets/group_ads/mantomancg.png" alt="MTM transition" class="img-fluid" style="width: 40%; text-align: center; margin: 0 auto;">
+                            <div class="col-8 col-lg-4 mx-auto">
+                                <img src="assets/group_ads/mantomancg.png" alt="MTM transition" class="img-fluid d-block mx-auto" style="width: 100%;">
                             </div>
                         </div>
                     </div>
@@ -385,28 +317,31 @@
                     <h4>Insurance Accepted</h4>
                     <p>We proudly accept the following insurance company plans and their subsidiaries:</p>
                     <ul>
-                        <li>Aetna (Ga & FL)</li>
-                        <li>Atena Medicare (GA & FL)</li>
+                        <h5>Virtual Only:</h5>
+                        <li>Aetna Medicare (GA & FL)</li>
                         <li>Ambetter (GA & FL)</li>
                         <li>Kaiser Permanente (GA & FL)</li>
+                        <br>
+                        <h5>In-Office & Virtual:</h5>
+                        <li>Aetna (Ga & FL)</li>
                         <li>Cigna (Ga & FL)</li>
                         <li>Anthem / BlueCross and BlueShield (GA only)</li>
                         <li>Optum / United Healthcare/UMR/ Oscar (GA Only)</li>
                     </ul>
                     <h4>Out of Network</h4>
-                    <p>If you don't have insurance or have a high deductible that is not met, you will pay the private pay rate and be given a Super Bill that you can file with your insurance and potentially get reimbursed at the rate of your out-of-network benefits. This benefit, combined with reduced rate (if qualified), is often the same or close to the same as some people's co-pays!
+                    <p>If you don't have insurance or have a high deductible that is not met, you will pay the private pay rate and be given a Super Bill that you can file with your insurance and potentially get reimbursed at the rate of your out-of-network benefits. This benefit, combined with reduced rate (if qualified), is often the same or close to the same as some people's co-pays.
                     </p>
                 </div>
                 <div class="col">
                     <h4>Payment Methods</h4>
-                    <img src="assets/payment_card.png" alt="Payment Methods" class="img-fluid" style="max-height: 50px;">
-                    <img src="assets/payment_vp.png" alt="Payment Methods" class="img-fluid" style="max-height: 50px;">
                     <ul>
                         <li>ACH Bank Transfer</li>
                         <li>Cash, Check, Wire</li>
                         <li>Health Savings Account (HSA)</li>
-                        <li>Accepted Credit Cards</li>
+                        <li>Accepted Credit Cards:</li>
                     </ul>
+                    <img src="assets/payment_card.png" alt="Payment Methods" class="img-fluid" style="max-height: 50px;">
+                    <img src="assets/payment_vp.png" alt="Payment Methods" class="img-fluid" style="max-height: 50px;">
                     <p>We offer a sliding scale for clients who can demonstrate financial need. 
                     <br>Payments are processed through Headway and Grow Therapy respectively.</p>
                 </div>
@@ -435,7 +370,7 @@
                         Dan Mulloy, LPC, CAMS-II
                         <br>Licensed Professional Counselor
                         <br>770-883-6988
-                        <br>dan@insights-counseling.com
+                        <br>dan@danmulloyLPC.com
                         </strong>
                     </p>
                 </div>
@@ -445,9 +380,11 @@
     <footer class="text-dark bg-main text-center py-3">
         <div class="container">
             <small>&copy;2026 Insights Counseling Services, LLC.</small>
+            <small>All rights reserved.</small>
+            <small> Designed by Sean Mulloy</small>
         </div>
     </footer>
-
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
